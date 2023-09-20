@@ -1,0 +1,120 @@
+@font-face
+{
+   font-family: "Font Awesome 5 Brands";
+   font-display: swap;
+   src: url('../fa-brands-400.woff2') format('woff2'),
+        url('../fa-brands-400.woff') format('woff'),
+        url('../fa-brands-400.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: "Feather";
+   font-display: swap;
+   src: url('../feathericon.woff') format('woff'),
+        url('../feathericon.ttf') format('truetype'),
+        url('../feathericon.svg#feathericon') format('svg'),
+        url('../feathericon.eot') format('embedded-opentype');
+}
+@keyframes transform-wiggle
+{
+   0% { transform: rotate(0deg) skewX(9deg) ;  }
+   10% { transform: rotate(0deg) skewX(-8deg) ;  }
+   20% { transform: rotate(0deg) skewX(7deg) ;  }
+   30% { transform: rotate(0deg) skewX(-6deg) ;  }
+   40% { transform: rotate(0deg) skewX(5deg) ;  }
+   50% { transform: rotate(0deg) skewX(-4deg) ;  }
+   60% { transform: rotate(0deg) skewX(3deg) ;  }
+   70% { transform: rotate(0deg) skewX(-2deg) ;  }
+   80% { transform: rotate(0deg) skewX(1deg) ;  }
+   90% { transform: rotate(0deg) skewX(0deg) ;  }
+   100% { transform: rotate(0deg) skewX(0deg) ;  }
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #2E74B5;
+   --color: #2E74B5;
+   background-color: transparent;
+}
